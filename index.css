@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Cocomat Pro;
+  src: url(CocomatPro-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Cocomat Pro;
+  src: url(CocomatPro-Bold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Cocomat Pro;
+  src: url(CocomatPro-Medium.otf);
+  font-weight: 500;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  width: 490px;
+  height: 518px;
+  margin: 0 374px 26px 96px;
+  flex-shrink: 0;
+}
+
+.roles {
+  font-family: Cocomat Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #1F2C2D;
+  opacity: 0.4;
+}
+
+.title {
+  margin-top: 32px;
+  font-family: Cocomat Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 93px;
+  line-height: 104px;
+  color: #1F2C2D;
+}
+
+.you {
+  color: #00ABB6;
+}
+
+.about-me {
+  margin-top: 40px;
+  font-family: Cocomat Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1F2C2D; 
+}
+
+.contact-container {
+  margin-top: 102px;
+  display: flex;
+
+  height: 56px;
+}
+
+.contact-me {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+
+  width: 270px;
+  height: 56px;
+
+  color: #ffffff;
+
+  background: #00ABB6;
+  border-radius: 8px;
+  font-family: Cocomat Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  margin-left: 8px;
+  width: 56px;
+  height: 56px;
+
+  border: 1px solid #00ABB6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
